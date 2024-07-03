@@ -6,6 +6,9 @@ def toss_coin():
 heads_count = 0
 tails_count = 0
 
+name = input("Who are you?\n> ")
+print(f"Hello, {name}!")
+
 print("Tossing a coin...")
 for round in range(1, 4):
     result = toss_coin()
